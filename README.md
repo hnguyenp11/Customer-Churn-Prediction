@@ -1,4 +1,5 @@
 # **Customer Churn Prediction**
+![image](https://github.com/user-attachments/assets/ef95244e-33fc-46cc-8b31-43d2ea37f115)
 
 ## **I. Business Understanding**
 Customer churn represents one of the most pressing challenges for businesses, particularly in highly competitive industries like telecommunications. When customers leave, it disrupts revenue and inflates acquisition costs, as acquiring a new customer is often more expensive than retaining an existing one. Reducing churn not only stabilizes revenue but also provides a strategic advantage in customer loyalty, helping the company build a dependable customer base.
