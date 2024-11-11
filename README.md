@@ -4,10 +4,10 @@
 ## **I. Business Understanding**
 Customer churn represents one of the most pressing challenges for businesses, particularly in highly competitive industries like telecommunications. When customers leave, it disrupts revenue and inflates acquisition costs, as acquiring a new customer is often more expensive than retaining an existing one. Reducing churn not only stabilizes revenue but also provides a strategic advantage in customer loyalty, helping the company build a dependable customer base.
 
-To effectively address this challenge, I will analyze data on customer behavior, service usage, and engagement patterns with a telecommunications provider. The goal is to develop a predictive model that can identify potential churners before they leave, allowing the company to implement proactive strategies to retain these customers. By understanding key churn drivers, the business can take informed actions—whether through personalized offers, improved customer service, or other retention strategies—to maintain and grow its revenue base.
+To effectively address this challenge, I will analyze data on customer behavior, service usage, and engagement patterns with a telecommunications provider. The goal is to develop a predictive model that can identify potential churners before they leave, allowing the company to implement proactive strategies to retain these customers.
 
 ## **II. Data Preparation**
-The dataset comprises 4,280 customer records, each containing details about geographic and service-related aspects that provide a comprehensive view of customer behavior and engagement with the telecommunications provider. Geographic details include the customer’s state and area code, offering some insight into demographics. Account-specific details, such as tenure with the provider and subscription to plans like international or voicemail, help characterize customer profiles. Usage metrics detail call duration, number of calls, and charges for day, evening, and night periods, as well as for domestic and international calls. These details enable a granular look into customer activity levels and preferences. Additionally, the dataset includes customer service interaction data and an indication of whether the customer eventually churned.
+The dataset comprises 4,280 customer records and 20 columns
 
 **Key dataset columns**
 - state: Two-letter code of the US state of customer residence
@@ -62,7 +62,3 @@ Using permutation importance, I identified the top features for churn prediction
   
 ## **VI. Deployment**
 Once trained and validated, I used this the model to predict for another dataset, which can help the company to flag high-risk customers. 
-
-
-
-
